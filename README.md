@@ -1,6 +1,6 @@
 # DevOps
 
-## Installation
+## 1. Installation
 
 ### Commandes pour installer les différents packets nécessaire aux projets
 
@@ -10,7 +10,29 @@ npm init -y
  npm install express --save-dev
 ```
 
-## Test
+## 2. Expliquations
+
+- Ici, on fait en sorte que toutes les pages non défini retourne une page blanche, accompagné d'une erreur 404
+
+```
+app.listen(PING_LISTEN_PORT, () => {
+  console.log(
+    "The application is listening on port " + PING_LISTEN_PORT + " !"
+  );
+});
+```
+
+- Le code ci-dessous permet modifier le port du serveur web
+
+```
+app.listen(PING_LISTEN_PORT, () => {
+  console.log(
+    "The application is listening on port " + PING_LISTEN_PORT + " !"
+  );
+});
+```
+
+## 3.Test
 
 ### Commandes pour lancer le serveur web
 
