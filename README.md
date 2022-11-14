@@ -22,7 +22,13 @@ app.listen(PING_LISTEN_PORT, () => {
 });
 ```
 
-- Le code ci-dessous permet modifier le port du serveur web
+- Pour pouvoir personnaliser le port du serveur web, on défini la variable `PING_LISTEN_PORT`
+
+```
+const PING_LISTEN_PORT = 8080;
+```
+
+- Le code ci-dessous récupère la valeur de la variable qui est donc le port qui va utilisé par le serveur web
 
 ```
 app.listen(PING_LISTEN_PORT, () => {
