@@ -10,7 +10,7 @@ npm init -y
  npm install express --save-dev
 ```
 
-## 2. Expliquations
+## 2. Expliquations du code
 
 - Ici, on fait en sorte que toutes les pages non défini retourne une page blanche, accompagné d'une erreur 404
 
@@ -22,13 +22,13 @@ app.listen(PING_LISTEN_PORT, () => {
 });
 ```
 
-- Pour pouvoir personnaliser le port du serveur web, on défini la variable `PING_LISTEN_PORT`
+- On défini la variable `PING_LISTEN_PORT` pour pouvoir personnaliser le port du serveur web.
 
 ```
 const PING_LISTEN_PORT = 8080;
 ```
 
-- Le code ci-dessous récupère la valeur de la variable qui est donc le port qui va utilisé par le serveur web
+- On récupère la valeur de la variable qui est donc le port qui va utilisé par le serveur web
 
 ```
 app.listen(PING_LISTEN_PORT, () => {
@@ -38,20 +38,19 @@ app.listen(PING_LISTEN_PORT, () => {
 });
 ```
 
-## 3.Test
+## 3. Test
 
 ### Commandes pour lancer le serveur web
 
 ```
 npx tsc 	            // build le programme dans le index.js
 node .\build\index.js      // lancer le programme dans le index.js
-
 ```
 
 - Développer une **API** qui retourne au format **JSON** les **headers** de la **requête** quand il y une requête HTTP GET sur **/ping**
-  ![](https://i.imgur.com/8jNor5q.png)
+  ![](livrables/a.png)
 
 > On remarque également que le serveur écoute sur le port **8080**
 
 - Réponse vide avec **code 404** si quoi que ça soit d'autre que **GET /ping**
-  ![](https://i.imgur.com/UHR4ibU.png)
+  ![](livrables/ping.png)
