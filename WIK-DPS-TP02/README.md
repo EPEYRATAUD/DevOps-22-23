@@ -72,7 +72,7 @@ USER node
 - On peut également voir qu'il n'y plus qu'un process actif sur le conteneur docker qui est l'éxécution du serveur .
   ![](./livrables/user_node.png)
 
-## III. Pour lancer le projet :
+## III. Pour lancer le projet
 
 1. Cloner le repo avec `git clone https://github.com/EPEYRATAUD/DevOps-22-23`
 2. Ouvrir le dossier `WIK-DPS-TP02` dans vscode ou dans un terminal et éxecutez ces commandes :
