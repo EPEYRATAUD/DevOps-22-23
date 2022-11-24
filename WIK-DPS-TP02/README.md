@@ -2,14 +2,14 @@
 
 ## Sommaire
 
-- [I. Créer une image Docker avec un seul stage](<#i-créer-une-image-docker-avec-un-seul-stage-qui-permet-déxécuter-votre-api-développée-précédemment(wik-dps-tp01)>)
+- [I. Créer une image Docker avec un seul stage](#i-créer-une-image-docker-avec-un-seul-stage-qui-permet-dexécuter-votre-api-développée-précédemment)
   - [A. L'image doit être la plus optimisée possible](#a-limage-doit-être-la-plus-optimisée-possible-concernant-lordre-des-layers-afin-de-limiter-le-temps-de-build-lors-des-modifications-sur-le-code)
   - [B. Scanner votre image avec trivy](#b-scanner-votre-image-avec-trivy-pour-obtenir-la-liste-des-vulnérabilités-détectées)
   - [C. L'image doit utiliser un **utilisateur spécifique**](#c-limage-doit-utiliser-un-utilisateur-spécifique-pour-lexécution-de-votre-serveur-web)
 - [II. Créer une seconde image Docker avec plusieurs stages : un pour l'étape de build et une autre pour l’exécution](#ii-créer-une-seconde-image-docker-pour-votre-api-avec-les-mêmes-contraintes-en-termes-doptimisations-mais-avec-plusieurs-stages)
 - [III. Lancement du projet](#iii-pour-lancer-le-projet)
 
-## I. Créer une image Docker avec un seul stage qui permet d’éxécuter votre API développée précédemment (WIK-DPS-TP01)
+## I. Créer une image Docker avec un seul stage qui permet d’exécuter votre API développée précédemment
 
 [Dockerfile 📄](./Dockerfile)
 
