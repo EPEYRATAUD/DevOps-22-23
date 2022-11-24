@@ -2,4 +2,6 @@
 
 Retrouvez ici mes TPs réalisées lors de mon cours de DevOps durant ma troisième année de Bachelor
 
-# [- TP-01](./PEYRATAUD_Enzo_project)
+# [- TP-01](./WIK-DPS-TP01/)
+
+# [- TP-02](./WIK-DPS-TP02/)
